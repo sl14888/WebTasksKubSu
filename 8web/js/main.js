@@ -84,7 +84,7 @@ document.addEventListener('DOMContentLoaded', () => {
             cb.checked = false;
           }
         },
-        error: function (jqxhr, status, errorMsg) {
+        error: function () {
           alert('Ошибка!');
         },
       });
